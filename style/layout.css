@@ -1,0 +1,60 @@
+body {
+    width: 480px;
+}
+header {
+    height: 75px;
+    background-color: aqua;
+}
+aside {
+    height: 150px;
+    background-color: magenta;
+}
+article {
+    height: 125px;
+    background-color: cadetblue;
+}
+#d {
+    background-color: orange;
+}
+.sidebyside {
+    height: fit-content;
+    background-color: rgb(255, 0, 170);
+}
+.miniframes {
+    height: 250px;
+    background-color: chocolate;
+    display: inline-block;
+    width: 50%;
+}
+#e {
+    background-color: yellow;
+}
+#f {
+    background-color: green;
+}
+#g {
+    background-color: blue;
+}
+#h {
+    background-color: purple;
+}
+.leftsection {
+    float: left;
+}
+footer {
+    height: 80px;
+    background-color: darkgoldenrod;
+}
+
+@media all and (min-width: 768px) {
+    body {
+        width: 960px;
+    }
+    .sidebyside {
+        width: 50%;
+        display: inline-block;
+    }
+    #leftdiv {
+        float: left;
+    }
+}
