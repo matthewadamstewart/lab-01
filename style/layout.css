@@ -50,11 +50,35 @@ footer {
     body {
         width: 960px;
     }
+    header {
+        height: 100px;
+    }
+    aside {
+        height: 600px;
+        width: 200px;
+        float: left;
+    }
+    article {
+        height: 200px;
+        width: 380px;
+        display: inline-block;
+    }
+    #c {
+        float: left;
+    }
     .sidebyside {
-        width: 50%;
+        height: 190px;
+        width: 380px;
         display: inline-block;
     }
     #leftdiv {
         float: left;
+    }
+    footer {
+        margin-top: 60px;
+        width: 760px;
+        height: 150px;
+        clear: both;
+        display: inline-block;
     }
 }
